@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bernieroach/w4d2pg#readme",
   "dependencies": {
+    "knex": "^0.13.0",
     "pg": "^7.3.0"
   }
 }
