@@ -1,3 +1,13 @@
+var knex = require('knex')({
+  client: 'pg',
+  version: '7.2',
+  connection: {
+    host : settings.hostname,
+    user : 'your_database_user',
+    password : 'your_database_password',
+    database : 'myapp_test'
+  }
+});
 const pg = require('pg');
 const settings = require("./settings");
 const client = new pg.Client({
