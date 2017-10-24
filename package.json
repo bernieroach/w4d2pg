@@ -1,5 +1,5 @@
 {
-  "name": "pg",
+  "name": "pgw4d2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bernieroach/w4d2pg/issues"
   },
-  "homepage": "https://github.com/bernieroach/w4d2pg#readme"
+  "homepage": "https://github.com/bernieroach/w4d2pg#readme",
+  "dependencies": {
+    "pg": "^7.3.0"
+  }
 }
